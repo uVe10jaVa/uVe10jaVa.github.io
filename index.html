@@ -4,31 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Miércoles22/01/2020</title>
     <script>
         function validar(){
             var email=document.getElementById("email").value;
             var pwd=document.getElementById("password").value;
             if(email=="prueba@gmail.com" && pwd=="patata"){ //esto no se hace porque se ve perfectamente en la consola del navegador. Es sólo para practicar.
-                alert("Perfect!");
+                window.location.href="cv.html";
             }
             else{
                 alert("Eeeeerror!");
             }
             console.log(email);
-        }
-
-        function mostrarColor(){
-            /*var nuevoColor="#735bd2";
-            var nuevoColor=document.getElementById("color").value();*/
-            alert(document.getElementById("color").value);
-        }
-
-        function mostrarAyuda(){
-            document.getElementById("password").value="Patata";
-        }
-        function ocultarAyuda(){
-            document.getElementById("password").value="";
         }
 
     </script>
@@ -39,30 +26,18 @@
         <!--campos de entrada:
         email, password, color, number,... son de tipo texto (type="text"), pero tienen verificación de email, pass, etc-->
         <p>Introduce tu email:
-            <input type="email" name="email" id="email" placeholder="tucorreo@servidor.extension"> 
-            <!--placeholder es un texto que ayuda pero se borra en cuanto empiezas a escribir sigue dejando el campo con value vacío-->
-            </p>    
-    
-            <!-- name: para hacer los envíos al servidor. el input que no lleve el name relleno no lo envía al servidor. En la parte cliente no nos sirve para nada.
-                id - para identificarlo dentro del dom. Tiene que ser único por página, aunque html no da error aunque lo dupliquemos. Es lo que nosotros necesitamos-->
-            <p>Introduce tu contraseña:
-                <input type="password" name="password" id="password" onmouseover="mostrarAyuda()" onmouseout="ocultarAyuda()">
-                <!--<input type="password" name="password" id="password" title="Introduce tu email">-->
-            </p>
-            
-    
-            <input type="color" name="" id="color"><br><br>
-            <input type="button" value="Mostrar código del color" id="boton2" onclick="mostrarColor()">
-        
-            <br><br>
-            <input type="number" name="" id="number" style="background: #735bd2;"><br><br>
-            <input type="date" name="" id="date"><br><br>
+        <input type="email" name="email" id="email">
+        </p>    
 
-            <input type="button" value="Validar" onclick="validar()"> 
-            <!--el onclick es la acción que va a realizar / función a llamar cuando pulsa el botón-->
-    
+        <!-- name: para hacer los envíos al servidor. el input que no lleve el name relleno no lo envía al servidor. En la parte cliente no nos sirve para nada.
+            id - para identificarlo dentro del dom. Tiene que ser único por página, aunque html no da error aunque lo dupliquemos. Es lo que nosotros necesitamos-->
+        <p>Introduce tu contraseña:
+            <input type="password" name="password" id="password">
+        </p>
+        
+        <input type="button" value="Validar" onclick="validar()"> 
+        <!--el onclick es la acción que va a realizar / función a llamar cuando pulsa el botón-->
+
     </form>
-    <h3><a href="index1.html">Ir a la pagina de Rafa</a></h3>
-    
 </body>
 </html>
