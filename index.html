@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Miércoles22/01/2020</title>
     <script>
         function validar(){
@@ -17,29 +18,19 @@
             }
             console.log(email);
         }
-
     </script>
 </head>
 <body>
-    <!--action - a dónde quiero enviar el form y method -cómo quiero que se envíe-->
-    <div style="text-align: center;">
+      <h1>VALIDACION</h1>
     <form action="" method="">
-        <!--campos de entrada:
-        email, password, color, number,... son de tipo texto (type="text"), pero tienen verificación de email, pass, etc-->
         <p>Introduce tu email:
         <input type="email" name="email" id="email">
         </p>    
-
-        <!-- name: para hacer los envíos al servidor. el input que no lleve el name relleno no lo envía al servidor. En la parte cliente no nos sirve para nada.
-            id - para identificarlo dentro del dom. Tiene que ser único por página, aunque html no da error aunque lo dupliquemos. Es lo que nosotros necesitamos-->
         <p>Introduce tu contraseña:
             <input type="password" name="password" id="password">
         </p>
-        
-        <input type="button" value="Validar" onclick="validar()"> 
-        <!--el onclick es la acción que va a realizar / función a llamar cuando pulsa el botón-->
-
+        <p><input type="button" value="Validar" onclick="validar()">
+        </p>
     </form>
-    </div>
 </body>
 </html>
