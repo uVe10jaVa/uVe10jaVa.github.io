@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Zhi+Mang+Xing&display=swap');
+/*
+    Selector Universal: * todos  
+    Selector de tipo: div, h1, input, h2, span, p,....
+    Selector de clase: .className
+    Selector de identificador: #idName
+*/
+*{
+    margin:0px;
+    text-align: center;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+.uve{
+    color:rgb(66, 19, 99);
+}
+
+#formValidar{
+    background-color:rgb(33, 5, 53);
+    color: rgb(204, 157, 238);
+}
+
+body{
+    background-image: url("/images/fondo.jpg");
+}
+
+div{
+    background-color: rgb(177, 238, 247);
+    height:250px;
+    padding-top: 75px;
+}
+
+h1{
+    margin:20px;
+    color: rgb(8, 71, 88);
+}
+
+input{
+    color:rgb(8, 71, 88);
+}
+
+p{
+    margin:20px;
+}

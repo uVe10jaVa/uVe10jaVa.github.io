@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');/*
+    Selector Universal: * todos  
+    Selector de tipo: div, h1, input, h2, span, p,....
+    Selector de clase: .className
+    Selector de identificador: #idName
+*/
+*{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#cuadroPrincipal{
+    width: 40%;
+    background-color: rgb(243, 205, 191);
+}
+
+body{
+    background-color: coral;
+}
