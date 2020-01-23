@@ -9,8 +9,14 @@
     font-family: 'Indie Flower', cursive;
 }
 
+.botonAzul{
+    background-color: rgb(54, 198, 218);
+    color:rgb(204, 237, 245);
+}
+
 #cuadroPrincipal{
     width: 40%;
+    padding: 15px;
     background-color: rgb(243, 205, 191);
 }
 
