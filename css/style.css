@@ -5,7 +5,6 @@
     Selector de identificador: #idName
 */
 *{
-    text-align: center;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -19,7 +18,10 @@
     padding: 15px;
     background-color: rgb(243, 205, 191);
 }
+#cuadroPrincipal p{
+    text-align: center;
+}
 
 body{
-    background-color: coral;
+    background-color: rgb(245, 131, 89);
 }
