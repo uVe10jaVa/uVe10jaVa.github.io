@@ -13,15 +13,32 @@
     color:rgb(204, 237, 245);
 }
 
+.ancho100{
+    width: 100%;
+    
+}
+
+.fondoGris{
+    background-color: rgb(217, 230, 233);
+}
+
 #cuadroPrincipal{
-    width: 40%;
+    width: 40%; /* 20em unidad de medida*/
+    margin: auto; /*para centrarlo*/
     padding: 15px;
     background-color: rgb(243, 205, 191);
 }
+
 #cuadroPrincipal p{
     text-align: center;
+    padding-right: 5px;
 }
 
 body{
     background-color: rgb(245, 131, 89);
+}
+
+input{
+    border-style: solid;
+    border-width: 1px;
 }
