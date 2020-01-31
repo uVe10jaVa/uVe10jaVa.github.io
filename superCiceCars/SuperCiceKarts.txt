@@ -1,0 +1,9 @@
+1. SuperCiceKarts. v1.0
+
+¿Va a haber errores en el código? Sí. -> v1.1 -> v1.2 -> v1.3 MANTENIMIENTO CORRECTIVO
+
+¿Va a haber una versión 2.0 del juego? sí. v2.0 -> MANTENIMIENTO EVOLUTIVO
+
+¿Vamos a hacer una versión en chino? Sí. v3.0 -> VERSIÓN ALTERNATIVA
+
+"Hacer un branch del proyecto" => Hacer una bifurcación del proyecto, q puede que converja después o no con el original

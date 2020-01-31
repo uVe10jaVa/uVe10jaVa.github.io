@@ -1,0 +1,32 @@
+.player{
+	width: 150px;
+
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-ms-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+
+#meta{
+	padding-left: 1000px;
+	width: 100px;
+}
+
+#lineameta{
+	position: absolute;
+	top: 160px;
+	left: 1050px;
+	width: 10px;
+	height: 600px;
+	background-color: coral;
+}
+
+#h1{
+	margin:50%;
+	visibility: 
+}
+
+#creditos{
+
+}
