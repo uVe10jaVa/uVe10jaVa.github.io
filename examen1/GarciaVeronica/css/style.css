@@ -1,0 +1,14 @@
+.violeta{
+    color: blueviolet;
+}
+
+h1{
+    color:lightskyblue;
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+}
+
+image{
+    padding: 1em;
+}
